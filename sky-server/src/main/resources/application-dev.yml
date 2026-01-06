@@ -6,3 +6,12 @@ sky:
     database: sky_take_out
     username: root
     password: Shangxian521@
+
+  alioss:
+    endpoint: obs.ap-southeast-3.myhuaweicloud.com
+    access-key-id: HPUAKMG9NPNKWPJ7DMOT
+    access-key-secret: 9VuQ8hESDcUklkRZctiDysSjqaKoIOGqD84035Tu
+    bucket-name: sky-aki
+
+#  upload:
+#    path: D:/sky/upload/

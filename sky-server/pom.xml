@@ -9,6 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>sky-server</artifactId>
+
+    <repositories>
+        <repository>
+            <id>huaweicloud-repo</id>
+            <url>https://repo.huaweicloud.com/repository/maven/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
 
         <dependency>
@@ -115,6 +123,13 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.huaweicloud</groupId>
+            <artifactId>esdk-obs-java</artifactId>
+            <version>3.23.3</version>
+        </dependency>
+
     </dependencies>
 
     <build>
