@@ -13,5 +13,8 @@ sky:
     access-key-secret: 9VuQ8hESDcUklkRZctiDysSjqaKoIOGqD84035Tu
     bucket-name: sky-aki
 
-#  upload:
-#    path: D:/sky/upload/
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
